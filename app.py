@@ -11,10 +11,10 @@ from db import NewsVectorDB
 
 # Load API keys
 load_dotenv()
-GOOGLE_API_KEY = "Your gemini api key"
+GOOGLE_API_KEY = "AIzaSyCdmmRUResuW4iSyLZFIlMY7yWTReyLdl4"
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
-NEWS_API_KEY = "Your newsapi key"
-NEWSDATA_API_KEY = "Your newsdata api key"
+NEWS_API_KEY = "2daee8fcbf7c478d9cb08c121544e7ff"
+NEWSDATA_API_KEY = "pub_c40537ecfed44be9b8953b28400e17f2"
 
 # Initialize components
 news_fetcher = NewsFetcher(newsapi_key=NEWS_API_KEY, newdata_key=NEWSDATA_API_KEY)

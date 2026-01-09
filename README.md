@@ -115,3 +115,21 @@ news_explorer/
 ├── db.py               # Vector database setup and retrieval logic
 ├── test_app.py         # Basic test scaffolding
 └── requirements.txt    # Python dependencies
+
+```
+
+---
+
+## Dependencies
+
+```
+streamlit>=1.20.0
+requests>=2.28.0
+python-dotenv>=1.0.0
+PyPDF2>=3.0.0
+langchain>=0.0
+langchain-google-genai>=0.0
+chromadb>=0.4.0
+tqdm>=4.0.0
+serpapi>=0.1.0
+```

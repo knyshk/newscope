@@ -155,6 +155,6 @@ pip install streamlit langchain langchain-google-genai chromadb python-dotenv re
 
 4. Running the application
 ```bash
-source venv/bin/activate  # Activate venv first
+source venv/bin/activate 
 streamlit run gui.py
 ```

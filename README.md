@@ -133,3 +133,28 @@ chromadb>=0.4.0
 tqdm>=4.0.0
 serpapi>=0.1.0
 ```
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd news_explorer
+```
+
+2. Create virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies
+```bash
+pip install streamlit langchain langchain-google-genai chromadb python-dotenv requests PyPDF2 tqdm serpapi langchain-community
+```
+
+4. Running the application
+```bash
+source venv/bin/activate  # Activate venv first
+streamlit run gui.py
+```
